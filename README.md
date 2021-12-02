@@ -1,23 +1,13 @@
-# @tophat/eslint-import-resolver-require
+# @tophat/jest-resolver
 
 The simplest eslint import resolver plugin. All it does is expose node's require.
 
 ## Usage
 
-```yml
-# .eslintrc.yml
-settings:
-  import/resolver: "@tophat/eslint-import-resolver-require"
-```
-
 ```js
-// .eslintrc.js
+// jest.config.js
 module.exports = {
-  settings: {
-    'import/resolver': {
-      '@tophat/eslint-import-resolver': {}
-    }
-  }
+  resolver: '@tophat/jest-resolver'
 }
 ```
 
@@ -28,7 +18,7 @@ module.exports = {
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://noahnu.com/"><img src="https://avatars.githubusercontent.com/u/1297096?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Noah</b></sub></a><br /><a href="https://github.com/tophat/eslint-import-resolver-require/commits?author=noahnu" title="Code">💻</a> <a href="#infra-noahnu" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://noahnu.com/"><img src="https://avatars.githubusercontent.com/u/1297096?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Noah</b></sub></a><br /><a href="https://github.com/tophat/jest-resolver/commits?author=noahnu" title="Code">💻</a> <a href="#infra-noahnu" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
 
