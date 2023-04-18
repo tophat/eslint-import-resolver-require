@@ -1,25 +1,5 @@
-# @tophat/eslint-import-resolver-require
-
-The simplest eslint import resolver plugin. All it does is expose node's require.
-
-## Usage
-
-```yml
-# .eslintrc.yml
-settings:
-  import/resolver: "@tophat/eslint-import-resolver-require"
-```
-
-```js
-// .eslintrc.js
-module.exports = {
-  settings: {
-    'import/resolver': {
-      '@tophat/eslint-import-resolver': {}
-    }
-  }
-}
-```
+# :warning: This project has been moved to https://github.com/tophat/eslint-config
+> Permalink: https://github.com/tophat/eslint-config/tree/c3771f849b13b83ba1245e4cb6d30d2a6d7e455d/eslint-import-resolver-require
 
 ## Contributors
 
